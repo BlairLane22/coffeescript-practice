@@ -1,1 +1,9 @@
-multiple = (x) -> x * 2
+x = 5
+times_two = (x) -> x * 2
+
+
+for num in [0..20]
+  if num % 2 == 0
+    console.log "#{num} is even"
+  else
+    console.log "#{num} is odd"
